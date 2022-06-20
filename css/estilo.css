@@ -47,7 +47,7 @@ header nav a.activo
     font-size: 16px;
     min-height: 37.5em;
     color: #FFF;
-    background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, .0) 100%) ,url(../img/Banner/banner-v1.png); /* ACÁ CAMBIAS LA IMÁGEN */
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, .0) 100%) ,url(../img/Banner/banner.jpg); /* ACÁ CAMBIAS LA IMÁGEN */
     background-position: right center;
     background-size: cover;
     margin-bottom: 3.12em;
