@@ -1,0 +1,406 @@
+:root {
+    --amarillo: #ffce00;
+    --fondo: #141414;;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--fondo);
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+
+header .contenedor{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo
+ {
+    color: #FFF;
+}
+
+
+
+/*   PELÍCULA PRINCIPAL    */
+.banner-principal { /* NOTA: ESTE ES EL BANNER QUE SALE EN LA PÁGINA PRINCIPAL DE THEPOLLOS+, PARA PONERLO EN LA PÁGINA PRINCIPAL
+                    DE SERIES/PELICULAS TIENES QUE COPIAR Y PEGAR ESTE CÓDIGO, PERO CAMBIANDO EL NOMBRE COMO "banner-serie" O LO QUE SEA 
+                    OTRA NOTA: NO SOLO DEBES COPIAR ESTO, LO DE ABAJO CON EL NOMBRE DE banner-principal TAMBIEN (PERO TIENE QUE TENER EL MISMO
+                    NOMBRE TODOS*/
+    font-size: 16px;
+    min-height: 37.5em;
+    color: #FFF;
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, .0) 100%) ,url(../img/Banner/banner-v1.png); /* ACÁ CAMBIAS LA IMÁGEN */
+    background-position: right center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.banner-principal .contenedor{
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
+
+.banner-principal .titulo {
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+}
+
+.banner-principal .descripcion {
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+}
+
+.banner-principal .boton{
+    background: rgba(0, 0, 0, .5);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #FFF;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+}
+.banner-principal .boton:hover{
+    background-color: #FFF;
+    color: #000;
+}
+
+.banner-principal .boton i {
+    margin-right: 1.25em;
+}
+
+/*--SERIES--*/
+.banner-the-pous {
+font-size: 16px;
+min-height: 37.5em;
+color: #FFF;
+background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) ,url(../img/Posters/Series/the-pous/poster.jpg); /* ACÁ CAMBIAS LA IMÁGEN */
+background-position: right center;
+background-size: cover;
+margin-bottom: 3.12em;
+display: flex;
+align-items: end;
+}
+
+.banner-the-pous .contenedor{
+margin: 0 auto;
+margin-bottom: 6.25em;
+}
+
+.banner-the-pous .titulo {
+font-weight: 600;
+font-size: 3.12em;
+margin-bottom: 0.4em;
+}
+
+.banner-the-pous .descripcion {
+font-weight: normal;
+font-size: 1em;
+line-height: 1.75em;
+max-width: 50%;
+margin-bottom: 1.25em;
+}
+
+.banner-the-pous .boton{
+background: rgba(0, 0, 0, .5);
+border: none;
+border-radius: 0.31em;
+padding: 0.93em 1.87em;
+color: #FFF;
+margin-right: 1.25em;
+cursor: pointer;
+transition: .3s ease all;
+font-size: 1.12em;
+}
+.banner-the-pous .boton:hover{
+background-color: #FFF;
+color: #000;
+}
+
+.banner-the-pous .boton i {
+margin-right: 1.25em;
+}
+
+/*--PELICULAS--*/
+.banner-the-pous {
+font-size: 16px;
+min-height: 37.5em;
+color: #FFF;
+background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) ,url(../img/Posters/Series/the-pous/poster.jpg); /* ACÁ CAMBIAS LA IMÁGEN */
+background-position: right center;
+background-size: cover;
+margin-bottom: 3.12em;
+display: flex;
+align-items: end;
+}
+
+.banner-the-pous .contenedor{
+margin: 0 auto;
+margin-bottom: 6.25em;
+}
+
+.banner-the-pous .titulo {
+font-weight: 600;
+font-size: 3.12em;
+margin-bottom: 0.4em;
+}
+
+.banner-the-pous .descripcion {
+font-weight: normal;
+font-size: 1em;
+line-height: 1.75em;
+max-width: 50%;
+margin-bottom: 1.25em;
+}
+
+.banner-the-pous .boton{
+background: rgba(0, 0, 0, .5);
+border: none;
+border-radius: 0.31em;
+padding: 0.93em 1.87em;
+color: #FFF;
+margin-right: 1.25em;
+cursor: pointer;
+transition: .3s ease all;
+font-size: 1.12em;
+}
+.banner-the-pous .boton:hover{
+background-color: #FFF;
+color: #000;
+}
+
+.banner-the-pous .boton i {
+margin-right: 1.25em;
+}
+
+/*--PELICULAS--*/
+.banner-pou-homecoming {
+font-size: 16px;
+min-height: 37.5em;
+color: #FFF;
+background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) ,url(../img/Posters/Películas/pou-homecoming/poster.png); /* ACÁ CAMBIAS LA IMÁGEN */
+background-position: right center;
+background-size: cover;
+margin-bottom: 3.12em;
+display: flex;
+align-items: end;
+}
+
+.banner-pou-homecoming .contenedor{
+margin: 0 auto;
+margin-bottom: 6.25em;
+}
+
+.banner-pou-homecoming .titulo {
+font-weight: 600;
+font-size: 3.12em;
+margin-bottom: 0.4em;
+}
+
+.banner-pou-homecoming .descripcion {
+font-weight: normal;
+font-size: 1em;
+line-height: 1.75em;
+max-width: 50%;
+margin-bottom: 1.25em;
+}
+
+.banner-pou-homecoming .boton{
+background: rgba(0, 0, 0, .5);
+border: none;
+border-radius: 0.31em;
+padding: 0.93em 1.87em;
+color: #FFF;
+margin-right: 1.25em;
+cursor: pointer;
+transition: .3s ease all;
+font-size: 1.12em;
+}
+.banner-pou-homecoming .boton:hover{
+background-color: #FFF;
+color: #000;
+}
+
+.banner-pou-homecoming .boton i {
+margin-right: 1.25em;
+}
+
+/*--NOTICIAS--*/
+.noticias {
+    color: #FFF;
+    background-color: #000;
+    height: 120%;
+    margin-top: 2px;
+}
+
+.noticias-titulo {
+    color: #FFF;
+}
+
+.texto-final {
+    color: #FFF;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+/*--CONTENEDOR DEL TITULO Y CONTROLES--*/
+.contenedor-titulo-controles{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.contenedor-titulo-controles h3{
+    color:white;
+    font-size: 30px;
+}
+
+.contenedor-titulo-controles .indicadores button{
+    background: #fff;
+    height: 3px;
+    width: 10px;
+    cursor: pointer;
+    border: none;
+    margin-right: 2px;
+}
+
+.contenedor-titulo-controles .indicadores button:hover,
+.contenedor-titulo-controles .indicadores button.activo{
+    background: red;
+}
+
+/*-------- CONTENEDOR PRINCIPALY FLECHAS -----------*/
+
+.peliculas-recomendadas {
+    margin-bottom: 70px;
+}
+
+.peliculas-recomendadas .contenedor-principal {
+    display: flex;
+    align-items:center;
+    position: relative;
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda, 
+.peliculas-recomendadas .contenedor-principal .flecha-derecha {
+    position: absolute;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+    height: 50%;
+    top: calc(50% - 25%);
+    line-height: 40px;
+    width: 50px;
+    color: #FFF;
+    cursor: pointer;
+    z-index: 500;
+    transition: .2s ease all;
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda:hover, 
+.peliculas-recomendadas .contenedor-principal .flecha-derecha:hover {
+    background: rgba(0, 0, 0, .9)
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda {
+    left: 0
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-derecha {
+    right: 0
+}
+
+/*--CAROUSEL--*/
+
+.peliculas-recomendadas .contenedor-carousel {
+    width: 100%;
+    padding: 20px 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula {
+    width: 20%; /*CAMBIAR A MIN-WIDTH DESPUES*/
+    transition: .3s ease all;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula.hover {
+    transform: scale(1.2);
+    transform-origin: center;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula img {
+    width: 100%;
+    vertical-align: top;
+
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 800px) {
+    header .logotipo {
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    header .contenedor {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-principal {
+        font-size: 14px;
+    }
+
+    .banner-principal .descripcion {
+        max-width: 100%;
+    }
+
+    .peliculas-recomendadas .contenedor-carousel {
+        overflow: visible;   
+    }
+
+    .peliculas-recomendadas .contenedor-carousel .carousel {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .peliculas-recomendadas .indicadores,
+    .peliculas-recomendadas .flecha-derecha,
+    .peliculas-recomendadas .flecha-izquierda {
+        display: none;
+    }
+}

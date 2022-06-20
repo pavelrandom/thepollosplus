@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <title>ThePollos+</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <img src="img/logo/thepollos.png" class="logotipo">
+            <nav>
+                <a href="index.html" class="activo">Inicio</a>
+                <a href="peliculas.html">Películas</a>
+                <a href="series.html">Series</a>
+                <a href="Noticias.html">Noticias</a>
+                <a href="info.html">Sobre nosotros</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="banner-principal">
+            <div class="contenedor">
+            <h3 class="titulo">Bienvenido a ThePollos+</h3>
+            <p class="descripcion">                    
+                ThePollos+, una página de ThePollos en la que podrás encontrar contenido hecho por nosotros...
+            </p>
+            <a href="info.html"><button role="button" class="boton"><i class="fas fa-info-circle"></i>Quiénes somos</button></a>
+            </div>
+        </div>
+
+        <div class="peliculas-recomendadas contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Películas Recomendadas:</h3>
+                <div class="indicadores"></div>
+            </div>
+
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+                <div class="contenedor-carousel">
+                    <div class="carousel">
+                        <div class="pelicula">
+                            <a href="/peliculas/pou-homecoming/index.html"><img src="img/Posters/Películas/pou-homecoming/poster.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
+
+        <div class="peliculas-recomendadas contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Series Recomendadas:</h3>
+                <div class="indicadores"></div>
+            </div>
+
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+                <div class="contenedor-carousel">
+                    <div class="carousel">
+                        <div class="pelicula">
+                            <a href="series/the-pous/index.html"><img src="img/Posters/Series/the-pous/poster.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
