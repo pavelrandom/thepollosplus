@@ -449,8 +449,54 @@ margin-right: 1.25em;
     background-color: #FFF;
     color: #000;
 }
+.banner-pou-wars {
+    font-size: 16px;
+    min-height: 37.5em;
+    color: #FFF;
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, .0) 100%) ,url(../img/Posters/Series/pou-wars/poster.jpg); /* ACÁ CAMBIAS LA IMÁGEN */
+    background-position: right center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
     
-.banner-floppa .boton i {
+.banner-pou-wars .contenedor{
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
+    
+.banner-pou-wars .titulo {
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+}
+    
+.banner-pou-wars .descripcion {
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+}
+    
+.banner-pou-wars .boton{
+    background: rgba(0, 0, 0, .5);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #FFF;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+}
+.banner-pou-wars .boton:hover{
+    background-color: #FFF;
+    color: #000;
+}
+    
+.banner-pou-wars .boton i {
     margin-right: 1.25em;
 }
 
