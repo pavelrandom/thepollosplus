@@ -12,6 +12,7 @@
 body {
     background: var(--fondo);
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 .contenedor {
